@@ -1,0 +1,1645 @@
+{
+    "_data": {
+        "ip_target_series": {
+            "name": "Target",
+            "data": []
+        },
+        "state_target_series": {
+            "name": "Target",
+            "data": []
+        },
+        "ip_achievement_series": {
+            "name": "Achievement",
+            "data": [
+                {
+                    "name": "IHVN",
+                    "y": 6808,
+                    "drilldown": "IHVN"
+                }
+            ]
+        },
+        "ip_achievement_drill_down_series": [
+            {
+                "name": "Target (cumulative)",
+                "id": "IHVN-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    },
+                    {
+                        "name": "26.Jun.22 – Week 40",
+                        "y": 0,
+                        "x": 40
+                    },
+                    {
+                        "name": "03.Jul.22 – Week 41",
+                        "y": 0,
+                        "x": 41
+                    },
+                    {
+                        "name": "10.Jul.22 – Week 42",
+                        "y": 0,
+                        "x": 42
+                    },
+                    {
+                        "name": "17.Jul.22 – Week 43",
+                        "y": 0,
+                        "x": 43
+                    },
+                    {
+                        "name": "24.Jul.22 – Week 44",
+                        "y": 0,
+                        "x": 44
+                    },
+                    {
+                        "name": "31.Jul.22 – Week 45",
+                        "y": 0,
+                        "x": 45
+                    },
+                    {
+                        "name": "07.Aug.22 – Week 46",
+                        "y": 0,
+                        "x": 46
+                    },
+                    {
+                        "name": "14.Aug.22 – Week 47",
+                        "y": 0,
+                        "x": 47
+                    },
+                    {
+                        "name": "21.Aug.22 – Week 48",
+                        "y": 0,
+                        "x": 48
+                    },
+                    {
+                        "name": "28.Aug.22 – Week 49",
+                        "y": 0,
+                        "x": 49
+                    },
+                    {
+                        "name": "04.Sep.22 – Week 50",
+                        "y": 0,
+                        "x": 50
+                    },
+                    {
+                        "name": "11.Sep.22 – Week 51",
+                        "y": 0,
+                        "x": 51
+                    },
+                    {
+                        "name": "18.Sep.22 – Week 52",
+                        "y": 0,
+                        "x": 52
+                    },
+                    {
+                        "name": "25.Sep.22 – Week 53",
+                        "y": 0,
+                        "x": 53
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement (cumulative)",
+                "id": "IHVN-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 609,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 1249,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 1855,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 2503,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 3088,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 3531,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 4179,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 4864,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 5463,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 5933,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 6433,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 6783,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 6808,
+                        "x": 39
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "IHVN-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            }
+        ],
+        "state_achievement_series": {
+            "name": "Achievement",
+            "data": [
+                {
+                    "name": "FCT",
+                    "y": 1287,
+                    "drilldown": "15"
+                },
+                {
+                    "name": "Katsina",
+                    "y": 1090,
+                    "drilldown": "21"
+                },
+                {
+                    "name": "Nasarawa",
+                    "y": 1628,
+                    "drilldown": "26"
+                },
+                {
+                    "name": "Rivers",
+                    "y": 2803,
+                    "drilldown": "33"
+                }
+            ]
+        },
+        "state_achievement_drill_down_series": [
+            {
+                "name": "Target (cumulative)",
+                "id": "21-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    },
+                    {
+                        "name": "26.Jun.22 – Week 40",
+                        "y": 0,
+                        "x": 40
+                    },
+                    {
+                        "name": "03.Jul.22 – Week 41",
+                        "y": 0,
+                        "x": 41
+                    },
+                    {
+                        "name": "10.Jul.22 – Week 42",
+                        "y": 0,
+                        "x": 42
+                    },
+                    {
+                        "name": "17.Jul.22 – Week 43",
+                        "y": 0,
+                        "x": 43
+                    },
+                    {
+                        "name": "24.Jul.22 – Week 44",
+                        "y": 0,
+                        "x": 44
+                    },
+                    {
+                        "name": "31.Jul.22 – Week 45",
+                        "y": 0,
+                        "x": 45
+                    },
+                    {
+                        "name": "07.Aug.22 – Week 46",
+                        "y": 0,
+                        "x": 46
+                    },
+                    {
+                        "name": "14.Aug.22 – Week 47",
+                        "y": 0,
+                        "x": 47
+                    },
+                    {
+                        "name": "21.Aug.22 – Week 48",
+                        "y": 0,
+                        "x": 48
+                    },
+                    {
+                        "name": "28.Aug.22 – Week 49",
+                        "y": 0,
+                        "x": 49
+                    },
+                    {
+                        "name": "04.Sep.22 – Week 50",
+                        "y": 0,
+                        "x": 50
+                    },
+                    {
+                        "name": "11.Sep.22 – Week 51",
+                        "y": 0,
+                        "x": 51
+                    },
+                    {
+                        "name": "18.Sep.22 – Week 52",
+                        "y": 0,
+                        "x": 52
+                    },
+                    {
+                        "name": "25.Sep.22 – Week 53",
+                        "y": 0,
+                        "x": 53
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement (cumulative)",
+                "id": "21-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 135,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 254,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 355,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 466,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 514,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 584,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 668,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 792,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 900,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 1007,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 1073,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 1090,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 1090,
+                        "x": 39
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "21-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Target (cumulative)",
+                "id": "15-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    },
+                    {
+                        "name": "26.Jun.22 – Week 40",
+                        "y": 0,
+                        "x": 40
+                    },
+                    {
+                        "name": "03.Jul.22 – Week 41",
+                        "y": 0,
+                        "x": 41
+                    },
+                    {
+                        "name": "10.Jul.22 – Week 42",
+                        "y": 0,
+                        "x": 42
+                    },
+                    {
+                        "name": "17.Jul.22 – Week 43",
+                        "y": 0,
+                        "x": 43
+                    },
+                    {
+                        "name": "24.Jul.22 – Week 44",
+                        "y": 0,
+                        "x": 44
+                    },
+                    {
+                        "name": "31.Jul.22 – Week 45",
+                        "y": 0,
+                        "x": 45
+                    },
+                    {
+                        "name": "07.Aug.22 – Week 46",
+                        "y": 0,
+                        "x": 46
+                    },
+                    {
+                        "name": "14.Aug.22 – Week 47",
+                        "y": 0,
+                        "x": 47
+                    },
+                    {
+                        "name": "21.Aug.22 – Week 48",
+                        "y": 0,
+                        "x": 48
+                    },
+                    {
+                        "name": "28.Aug.22 – Week 49",
+                        "y": 0,
+                        "x": 49
+                    },
+                    {
+                        "name": "04.Sep.22 – Week 50",
+                        "y": 0,
+                        "x": 50
+                    },
+                    {
+                        "name": "11.Sep.22 – Week 51",
+                        "y": 0,
+                        "x": 51
+                    },
+                    {
+                        "name": "18.Sep.22 – Week 52",
+                        "y": 0,
+                        "x": 52
+                    },
+                    {
+                        "name": "25.Sep.22 – Week 53",
+                        "y": 0,
+                        "x": 53
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement (cumulative)",
+                "id": "15-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 107,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 217,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 348,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 451,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 579,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 642,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 780,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 905,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 1054,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 1130,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 1221,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 1285,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 1287,
+                        "x": 39
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "15-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Target (cumulative)",
+                "id": "26-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    },
+                    {
+                        "name": "26.Jun.22 – Week 40",
+                        "y": 0,
+                        "x": 40
+                    },
+                    {
+                        "name": "03.Jul.22 – Week 41",
+                        "y": 0,
+                        "x": 41
+                    },
+                    {
+                        "name": "10.Jul.22 – Week 42",
+                        "y": 0,
+                        "x": 42
+                    },
+                    {
+                        "name": "17.Jul.22 – Week 43",
+                        "y": 0,
+                        "x": 43
+                    },
+                    {
+                        "name": "24.Jul.22 – Week 44",
+                        "y": 0,
+                        "x": 44
+                    },
+                    {
+                        "name": "31.Jul.22 – Week 45",
+                        "y": 0,
+                        "x": 45
+                    },
+                    {
+                        "name": "07.Aug.22 – Week 46",
+                        "y": 0,
+                        "x": 46
+                    },
+                    {
+                        "name": "14.Aug.22 – Week 47",
+                        "y": 0,
+                        "x": 47
+                    },
+                    {
+                        "name": "21.Aug.22 – Week 48",
+                        "y": 0,
+                        "x": 48
+                    },
+                    {
+                        "name": "28.Aug.22 – Week 49",
+                        "y": 0,
+                        "x": 49
+                    },
+                    {
+                        "name": "04.Sep.22 – Week 50",
+                        "y": 0,
+                        "x": 50
+                    },
+                    {
+                        "name": "11.Sep.22 – Week 51",
+                        "y": 0,
+                        "x": 51
+                    },
+                    {
+                        "name": "18.Sep.22 – Week 52",
+                        "y": 0,
+                        "x": 52
+                    },
+                    {
+                        "name": "25.Sep.22 – Week 53",
+                        "y": 0,
+                        "x": 53
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement (cumulative)",
+                "id": "26-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 134,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 297,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 446,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 585,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 721,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 819,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 963,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 1120,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 1263,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 1377,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 1514,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 1627,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 1628,
+                        "x": 39
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "26-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Target (cumulative)",
+                "id": "33-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    },
+                    {
+                        "name": "26.Jun.22 – Week 40",
+                        "y": 0,
+                        "x": 40
+                    },
+                    {
+                        "name": "03.Jul.22 – Week 41",
+                        "y": 0,
+                        "x": 41
+                    },
+                    {
+                        "name": "10.Jul.22 – Week 42",
+                        "y": 0,
+                        "x": 42
+                    },
+                    {
+                        "name": "17.Jul.22 – Week 43",
+                        "y": 0,
+                        "x": 43
+                    },
+                    {
+                        "name": "24.Jul.22 – Week 44",
+                        "y": 0,
+                        "x": 44
+                    },
+                    {
+                        "name": "31.Jul.22 – Week 45",
+                        "y": 0,
+                        "x": 45
+                    },
+                    {
+                        "name": "07.Aug.22 – Week 46",
+                        "y": 0,
+                        "x": 46
+                    },
+                    {
+                        "name": "14.Aug.22 – Week 47",
+                        "y": 0,
+                        "x": 47
+                    },
+                    {
+                        "name": "21.Aug.22 – Week 48",
+                        "y": 0,
+                        "x": 48
+                    },
+                    {
+                        "name": "28.Aug.22 – Week 49",
+                        "y": 0,
+                        "x": 49
+                    },
+                    {
+                        "name": "04.Sep.22 – Week 50",
+                        "y": 0,
+                        "x": 50
+                    },
+                    {
+                        "name": "11.Sep.22 – Week 51",
+                        "y": 0,
+                        "x": 51
+                    },
+                    {
+                        "name": "18.Sep.22 – Week 52",
+                        "y": 0,
+                        "x": 52
+                    },
+                    {
+                        "name": "25.Sep.22 – Week 53",
+                        "y": 0,
+                        "x": 53
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement (cumulative)",
+                "id": "33-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 233,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 481,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 706,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 1001,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 1274,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 1486,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 1768,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 2047,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 2246,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 2419,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 2625,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 2781,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 2803,
+                        "x": 39
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "33-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "27.Mar.22 – Week 27",
+                        "y": 0,
+                        "x": 27
+                    },
+                    {
+                        "name": "03.Apr.22 – Week 28",
+                        "y": 0,
+                        "x": 28
+                    },
+                    {
+                        "name": "10.Apr.22 – Week 29",
+                        "y": 0,
+                        "x": 29
+                    },
+                    {
+                        "name": "17.Apr.22 – Week 30",
+                        "y": 0,
+                        "x": 30
+                    },
+                    {
+                        "name": "24.Apr.22 – Week 31",
+                        "y": 0,
+                        "x": 31
+                    },
+                    {
+                        "name": "01.May.22 – Week 32",
+                        "y": 0,
+                        "x": 32
+                    },
+                    {
+                        "name": "08.May.22 – Week 33",
+                        "y": 0,
+                        "x": 33
+                    },
+                    {
+                        "name": "15.May.22 – Week 34",
+                        "y": 0,
+                        "x": 34
+                    },
+                    {
+                        "name": "22.May.22 – Week 35",
+                        "y": 0,
+                        "x": 35
+                    },
+                    {
+                        "name": "29.May.22 – Week 36",
+                        "y": 0,
+                        "x": 36
+                    },
+                    {
+                        "name": "05.Jun.22 – Week 37",
+                        "y": 0,
+                        "x": 37
+                    },
+                    {
+                        "name": "12.Jun.22 – Week 38",
+                        "y": 0,
+                        "x": 38
+                    },
+                    {
+                        "name": "19.Jun.22 – Week 39",
+                        "y": 0,
+                        "x": 39
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            }
+        ],
+        "ip_percentage_achievement_series": {
+            "name": "% Achievement",
+            "data": []
+        },
+        "state_percentage_achievement_series": {
+            "name": "% Achievement",
+            "data": []
+        }
+    },
+    "search": {
+        "indicator": "tx_new",
+        "iPs": [
+            "IHVN"
+        ],
+        "lgaCodes": null,
+        "stateCodes": [
+            15,
+            21,
+            26,
+            33
+        ],
+        "facilities": null,
+        "sex": null,
+        "lineList": null,
+        "from": "2022-04-01T00:00:00",
+        "to": "2022-06-30T00:00:00",
+        "quarter": null,
+        "weight": null,
+        "includeProcessed": null,
+        "reportType": null,
+        "clientStatus": null,
+        "age": null,
+        "group": null,
+        "facilityType": null,
+        "qcRound": null,
+        "viralStatus": null,
+        "duration": null
+    },
+    "_countData": {
+        "allPatient": 1144742,
+        "stateCount": 4,
+        "lgaCount": 70,
+        "facilityCount": 246,
+        "ipCount": 1
+    }
+}

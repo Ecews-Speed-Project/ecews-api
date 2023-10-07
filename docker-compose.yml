@@ -1,0 +1,23 @@
+version: '3.1'
+services:
+  app:
+    image: "ihvncentraldb"
+    build: ./
+    ports:
+      - "9090"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    ports:
+      - "5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=ihvn
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

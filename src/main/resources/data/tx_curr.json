@@ -1,0 +1,570 @@
+{
+    "_data": {
+        "ip_target_series": {
+            "name": "Target",
+            "data": []
+        },
+        "state_target_series": {
+            "name": "Target",
+            "data": []
+        },
+        "ip_achievement_series": {
+            "name": "Achievement",
+            "data": [
+                {
+                    "name": "IHVN",
+                    "y": 358053,
+                    "drilldown": "IHVN"
+                }
+            ]
+        },
+        "ip_achievement_drill_down_series": [
+            {
+                "name": "Target",
+                "id": "IHVN-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    },
+                    {
+                        "name": "2022 July – Q4",
+                        "y": 0,
+                        "x": 4
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement",
+                "id": "IHVN-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 353570,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 364892,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 358053,
+                        "x": 3
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "IHVN-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            }
+        ],
+        "state_achievement_series": {
+            "name": "Achievement",
+            "data": [
+                {
+                    "name": "FCT",
+                    "y": 87632,
+                    "drilldown": "15"
+                },
+                {
+                    "name": "Katsina",
+                    "y": 16603,
+                    "drilldown": "21"
+                },
+                {
+                    "name": "Nasarawa",
+                    "y": 74737,
+                    "drilldown": "26"
+                },
+                {
+                    "name": "Rivers",
+                    "y": 179081,
+                    "drilldown": "33"
+                }
+            ]
+        },
+        "state_achievement_drill_down_series": [
+            {
+                "name": "Target",
+                "id": "15-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    },
+                    {
+                        "name": "2022 July – Q4",
+                        "y": 0,
+                        "x": 4
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement",
+                "id": "15-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 84888,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 87369,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 87632,
+                        "x": 3
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "15-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Target",
+                "id": "21-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    },
+                    {
+                        "name": "2022 July – Q4",
+                        "y": 0,
+                        "x": 4
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement",
+                "id": "21-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 14077,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 16196,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 16603,
+                        "x": 3
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "21-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Target",
+                "id": "26-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    },
+                    {
+                        "name": "2022 July – Q4",
+                        "y": 0,
+                        "x": 4
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement",
+                "id": "26-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 74044,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 75866,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 74737,
+                        "x": 3
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "26-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Target",
+                "id": "33-Target",
+                "type": "area",
+                "color": "steelblue",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    },
+                    {
+                        "name": "2022 July – Q4",
+                        "y": 0,
+                        "x": 4
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "Achievement",
+                "id": "33-Achievement",
+                "type": "area",
+                "color": "sandybrown",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 180561,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 185461,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 179081,
+                        "x": 3
+                    }
+                ],
+                "marker": {
+                    "enabled": false
+                }
+            },
+            {
+                "name": "% Achievement",
+                "id": "33-Percentage",
+                "type": "spline",
+                "color": "green",
+                "data": [
+                    {
+                        "name": "2021 October – Q1",
+                        "y": 0,
+                        "x": 1
+                    },
+                    {
+                        "name": "2022 January – Q2",
+                        "y": 0,
+                        "x": 2
+                    },
+                    {
+                        "name": "2022 April – Q3",
+                        "y": 0,
+                        "x": 3
+                    }
+                ],
+                "yAxis": 1,
+                "lineWidth": 0,
+                "marker": {
+                    "radius": 5,
+                    "symbol": "circle"
+                },
+                "states": {
+                    "hover": {
+                        "lineWidth": 0,
+                        "lineWidthPlus": 0,
+                        "marker": {
+                            "radius": 5
+                        }
+                    }
+                }
+            }
+        ],
+        "ip_percentage_achievement_series": {
+            "name": "% Achievement",
+            "data": []
+        },
+        "state_percentage_achievement_series": {
+            "name": "% Achievement",
+            "data": []
+        }
+    },
+    "search": {
+        "indicator": "tx_curr",
+        "iPs": [
+            "IHVN"
+        ],
+        "lgaCodes": null,
+        "stateCodes": [
+            15,
+            21,
+            26,
+            33
+        ],
+        "facilities": null,
+        "sex": null,
+        "lineList": null,
+        "from": null,
+        "to": null,
+        "quarter": null,
+        "weight": null,
+        "includeProcessed": null,
+        "reportType": null,
+        "clientStatus": null,
+        "age": null,
+        "group": null,
+        "facilityType": null,
+        "qcRound": null,
+        "viralStatus": null,
+        "duration": null
+    },
+    "_countData": {
+        "allPatient": 1144742,
+        "stateCount": 4,
+        "lgaCount": 70,
+        "facilityCount": 246,
+        "ipCount": 1
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="ihvncr-2022-05-19-17260099" author="temiye">
+        <sqlFile path="migration/initial_setup.sql"
+                 stripComments="true"
+                 splitStatements="true"
+                 endDelimiter=";"/>
+    </changeSet>
+
+<!--    <changeSet id="ihvncr-2022-07-08-17260099" author="temiye">-->
+<!--        <sql>update role set role_description = 'State Admin' ,  role_name = 'State_Admin' where id = 2 ; </sql>-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="ihvncr-2022-07-08-17260010" author="temiye">-->
+<!--        <sql>update role set role_description = 'MandE Users' ,  role_name = 'MandE' where id = 3; </sql>-->
+<!--        <sql>INSERT INTO role ("id", "role_description", "role_name", "create_date", "update_date") VALUES (4, 'Facility Admin', 'Facility_Admin', NOW(), NOW())</sql>-->
+<!--    </changeSet>-->
+
+</databaseChangeLog>
