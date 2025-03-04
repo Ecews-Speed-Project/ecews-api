@@ -22,7 +22,20 @@ import static com.ihvncr.ihvncrapi.utils.CommonUtils.decrypt;
 @RestController
 public class PatientController {
     private final PatientService patientService;
+    @PostMapping("/getPatientDemographicsById")
+    public ResponseEntity<?> getPatientDemographicsById(
+            @RequestBody PatientRequestDto patientRequestDto
+    ) {
+        if (patientService.getPatientByIdentifier(patientRequestDto) != null) {
+            return new ResponseEntity<>(
+                    patientService.getPatientDemographicsByIdentifier(patientRequestDto), HttpStatus.CREATED);
+        }else{
+            return ResponseEntity
+                    .status(HttpStatus.FORBIDDEN)
+                    .body("Invalid Patient");
+        }
 
+    }
     @PostMapping("/getPatientById")
     public ResponseEntity<?> getPatientById(
             @RequestBody PatientRequestDto patientRequestDto

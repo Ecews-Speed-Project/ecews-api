@@ -35,6 +35,11 @@ public class HelperFunctions {
         return zdt.toLocalDate();
     }
 
+    public  static  BigDecimal convertToDecimal(String given){
+        BigDecimal actual = new BigDecimal(given);
+        return actual;
+    }
+
     public Optional<ObsType> getDaysOfArv(int obsId, int conceptId, Container container, Date cutOff) {
 
         return container.getMessageData().getObs()

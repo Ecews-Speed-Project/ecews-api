@@ -2,10 +2,12 @@ package com.ihvncr.ihvncrapi.service;
 
 import com.ihvncr.ihvncrapi.exception.TokenRefreshException;
 import com.ihvncr.ihvncrapi.model.RefreshToken;
+import com.ihvncr.ihvncrapi.model.Token;
 import com.ihvncr.ihvncrapi.payload.request.JwtRequest;
 import com.ihvncr.ihvncrapi.payload.request.RefreshTokenRequest;
 import com.ihvncr.ihvncrapi.payload.response.JwtResponse;
 import com.ihvncr.ihvncrapi.payload.response.TokenRefreshResponse;
+import com.ihvncr.ihvncrapi.repository.TokenRepository;
 import com.ihvncr.ihvncrapi.utils.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +24,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class AuthService {
     private final JwtUtil jwtUtil;
+    private  final TokenRepository tokenRepository;
+
     private final RefreshTokenService refreshTokenService;
     private final CustomUserDetailsService customUserDetailsService;
     private final AuthenticationManager authenticationManager;
@@ -35,8 +39,11 @@ public class AuthService {
         String newGeneratedToken =
                 (isPublic == true) ?
                         jwtUtil.generatePublicToken(userDetails) :
-                        jwtUtil.generateToken(userDetails);;
-
+                        jwtUtil.generateToken(userDetails);
+        Token token = new Token();
+        token.setId(Long.parseLong("1"));
+        token.setToken(newGeneratedToken);
+        tokenRepository.save(token);
         return new JwtResponse(refreshToken.getUser(), newGeneratedToken, refreshToken.getToken());
     }
 

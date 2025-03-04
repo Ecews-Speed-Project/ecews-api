@@ -8,6 +8,8 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Date;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -16,9 +18,10 @@ public class PharmacyEncounter {
     String title;
     String status;
     int encounterType;
-    int encounterId;
-    LocalDate returnDate;
+    long encounterId;
+    String clinician;
+    Date returnDate;
     String currentRegimen;
-    LocalDate encounterDate;
+    Date encounterDate;
     BigDecimal daysOfRefill;
 }

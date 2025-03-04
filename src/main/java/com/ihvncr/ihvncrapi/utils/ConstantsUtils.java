@@ -17,6 +17,8 @@ public class ConstantsUtils {
 
     public static final int CURRENT_REGIMEN  = 165708;
     public static final int LAB_ENCOUNTER_TYPE = 11;
+    public static final int CD4_ENCOUNTER_TYPE = 31;
+
     public static final int CARE_CARD_TYPE = 12;
 
     public static final int CARE_CARD_CONCEPT = 5096;

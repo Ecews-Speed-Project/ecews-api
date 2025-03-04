@@ -8,6 +8,8 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Date;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -15,10 +17,10 @@ import java.time.LocalDateTime;
 public class LabEncounter {
     String title;
     String status;
-    String cinici;
+    String clinician;
     int encounterType;
-    int encounterId;
-    LocalDate returnDate;
-    LocalDate encounterDate;
+    long encounterId;
+    Date returnDate;
+    Date encounterDate;
     BigDecimal viralload;
 }

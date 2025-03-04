@@ -9,10 +9,7 @@ import javax.crypto.spec.SecretKeySpec;
 import javax.persistence.Tuple;
 import java.nio.charset.StandardCharsets;
 import java.security.GeneralSecurityException;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
@@ -67,6 +64,22 @@ public class CommonUtils {
             return map.get(value);
         }
         return null;
+    }
+
+    public static long covertToLongDate(Date date){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+        // Parse the date string to LocalDate
+        LocalDate localDate = LocalDate.parse(date.toString(), formatter);
+
+        // Convert LocalDate to LocalDateTime at start of day
+        LocalDateTime localDateTime = localDate.atStartOfDay();
+
+        // Convert LocalDateTime to Instant
+        Instant instant = localDateTime.toInstant(ZoneOffset.UTC);
+
+        // Get the epoch milli representation of the Instant
+        return  instant.toEpochMilli();
     }
 
     public static double calculatePercentage(long group, long total){

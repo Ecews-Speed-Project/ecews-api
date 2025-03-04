@@ -5,14 +5,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class PatientInfo {
+public class PatientDemographics {
 
     private String pepfarId;
     private String patientUniqueId;
@@ -26,9 +26,16 @@ public class PatientInfo {
     private String occupation;
     private String height;
     private String weight;
+    private String identifierType;
+    private String treatmentGroup;
+    private String payForHealthCare;
+    private String patientTpe;
+    private String dateOfDiagnosis;
 
-    List<PharmacyEncounter> pharmacyEncounter;
-    List<LabEncounter> labEncounter;
-    List<ClinicEncounter> clinicEncounters;
+    PharmacyEncounter pharmacyEncounter;
+    LabEncounter labEncounter;
+    Cd4Encounter cd4Encounter;
+    ClinicEncounter clinicEncounters;
+
 }
 
